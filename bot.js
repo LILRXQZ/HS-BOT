@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'pp') {
-    msg.reply('ولكم يعسل نورت السيرفر !');
+  if (msg.content === 'ping') {
+    msg.reply('Pong!');
   }
 });
 
