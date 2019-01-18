@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'باك') {
+  if (msg.content === 'pp') {
     msg.reply('ولكم يعسل نورت السيرفر !');
   }
 });
